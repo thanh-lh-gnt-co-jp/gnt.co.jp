@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+#contents .news_list dl {
+  margin-bottom: 10px;
+}
+
+#contents .news_list dt a {
+  text-decoration: underline;
+  font-weight: bold;
+  line-height: 1.7em;
+}
+
+#contents .news_list .date {
+  font-weight: bold;
+  margin: 5px 0;
+  display: block;
+}
+
+#contents .pagination {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#contents .pagination ul {
+  display: inline-block;
+  overflow: hidden;
+}
+
+#contents .pagination li {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  margin: 0 3px;
+}
+
+#contents .pagination a {
+  display: block;
+}
+
+#contents .pagination .active span {
+  background: #cacaca;
+  display: block;
+  color: #fff;
+  text-align: center;
+}
+
+#contents .img_center {
+  padding: 5px 0;
+}
+
+#contents .app_list {
+  background: url(../../img/news/img-bullet_news.jpg) left center no-repeat;
+  padding-left: 15px;
+}

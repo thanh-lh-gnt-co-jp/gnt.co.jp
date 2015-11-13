@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+#faq .section {
+  margin-top: 20px;
+}
+
+#faq .section.edge {
+  margin-top: 0;
+}
+
+#faq .faq_title {
+  padding: 6px 20px 3px;
+}
+
+/* ----- */
+
+#faq .blue .faq_title {
+  background: #057ea5;
+}
+
+#faq .green .faq_title {
+  background: #6b8839;
+}
+
+#faq .orange .faq_title {
+  background: #f5884b;
+}
+
+#faq .pink .faq_title {
+  background: #a84261;
+}
+
+/* ----- */
+
+#faq .faq_title h3 {
+  color: #fff;
+  font-size: 167%;
+}
+
+#faq .area_contents {
+  padding: 15px;
+}
+
+/* ----- */
+
+#faq .blue .area_contents {
+  border-right: 3px solid #057ea5;
+  border-bottom: 3px solid #057ea5;
+  border-left: 3px solid #057ea5;
+}
+
+#faq .green .area_contents {
+  border-right: 3px solid #6b8839;
+  border-bottom: 3px solid #6b8839;
+  border-left: 3px solid #6b8839;
+}
+
+#faq .orange .area_contents {
+  border-right: 3px solid #f5884b;
+  border-bottom: 3px solid #f5884b;
+  border-left: 3px solid #f5884b;
+}
+
+#faq .pink .area_contents {
+  border-right: 3px solid #a84261;
+  border-bottom: 3px solid #a84261;
+  border-left: 3px solid #a84261;
+}
+
+/* ----- */
+
+#faq .area_contents dl {
+  margin-top: 20px;
+}
+
+#faq .area_contents dl:first-child {
+  margin-top: 0;
+}
+
+#faq .area_contents dt {
+  font-size: 134%;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#faq .area_contents .number {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+/* ----- */
+
+#faq .blue .area_contents .number {
+  background: #057ea5;
+}
+
+#faq .green .area_contents .number {
+  background: #6b8839;
+}
+
+#faq .orange .area_contents .number {
+  background: #f5884b;
+}
+
+#faq .pink .area_contents .number {
+  background: #a84261;
+}
+
+/* ----- */
+
+#faq .area_contents dd p {
+  font-size: 109%;
+  line-height: 1.7em;
+}

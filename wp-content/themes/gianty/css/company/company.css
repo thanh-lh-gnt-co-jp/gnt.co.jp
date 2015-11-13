@@ -1,0 +1,398 @@
+@charset "utf-8";
+
+/*======================================
+  index.html details page
+======================================*/
+
+/*--------- company index---------*/
+#details .details_box {
+  background: url(../../img/company/bg-border_separate.gif) repeat-y center top;
+}
+
+#details .details_box .left_box {
+  width: 344px;
+  float: left;
+  padding-right: 20px;
+}
+
+#details .details_box .area_box {
+  font-size: 167%;
+}
+
+#details .details_box .right_box {
+  width: 344px;
+  float: right;
+  padding-left: 20px;
+}
+
+#details .details_box #japan_map, #details .details_box #vietnam_map {
+  width: 344px;
+  height: 261px;
+}
+
+#details .details_box tr:first-child {
+  background: none;
+}
+
+#details .details_box th {
+  padding: 14px 0 11px;
+  font-size: 125%;
+  vertical-align: top;
+  width: 105px;
+}
+
+#details .details_box td {
+  padding: 14px 0 11px;
+  vertical-align: middle;
+}
+
+#details .details_box .data_box {
+  font-size: 125%;
+}
+
+#details .details_box .data_note {
+  font-size: 100%;
+}
+
+#details .details_box .data_note.red_note {
+  color: #ff0000;
+  font-weight: bold; 
+}
+
+#details .details_info {
+  margin-top: 5px;
+}
+
+#details .details_info .thumb {
+  margin: 0 0 8px;
+}
+
+/*--------- company index---------*/
+
+#details .details_box table {
+  width: 100%;
+}
+
+#details .details_box tr {
+  background: url(../../img/company/img-border.gif) repeat-x left top;
+}
+
+#details .details_info dt {
+  display: inline-block;
+  vertical-align: middle;
+  width: 230px;
+}
+
+#details .details_info dd {
+  display: inline-block;
+  vertical-align: middle;
+  width: 498px;
+}
+
+#details .details_info strong {
+  font-size: 125%;
+}
+
+#details .details_info .txt {
+  margin-top: 20px;
+  font-size: 117%;
+}
+
+
+/*======================================
+  message.html
+======================================*/
+
+/*--------- company massage---------*/
+#contents .top_title {
+  margin-bottom: 8px;
+}
+#message .title_area {
+  font-size: 167%;
+  margin-bottom: 6px;
+}
+#message .title_area.next {
+  padding-top: 14px;
+  border-top: 1px solid #cacaca;
+}
+
+#message .title h4 {
+  font-size: 167%;
+}
+
+#message .bio dl span {
+  width: 110px;
+  display: inline-block;
+}
+
+#message .section.edge {
+  /*background: url(../../img/company/img-border.gif) repeat-x left top;*/
+  padding-top: 10px;
+}
+
+/*--------- company massage---------*/
+
+
+#message .title {
+  margin-bottom: 10px;
+}
+
+#message .wrap {
+  overflow: hidden;
+  border-bottom: 1px dashed #ddd;
+  padding-bottom: 10px;
+}
+#message .wrap.last-child{
+  border-bottom:none;
+}
+
+#message .thumb {
+  float: left;
+  width: 175px;
+}
+
+#message .text {
+  float: right;
+  width: 502px;
+}
+
+#message .text p {
+  margin-bottom: 15px;
+  font-size: 130%;
+  line-height: 1.9em;
+}
+
+#message .bio dl {
+  /*background: url(../../img/company/img-border.gif) repeat-x left top;*/
+  padding: 10px 0;
+}
+
+#message .bio dt {
+  font-weight: bold;
+}
+
+
+/*======================================
+  staffs.html
+======================================*/
+
+#staffs .ceo {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cacaca;
+}
+
+#staffs .ceo ul {
+  overflow: hidden;
+}
+
+#staffs .ceo li {
+  /*float: left;
+  margin-left: 20px;*/
+  display: inline-block;
+  margin-right:20px;
+  margin-top: 20px;
+}
+
+#staffs .ceo li:first-child {
+  margin-left: 0;
+}
+
+#staffs .leader {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cacaca;
+}
+
+#staffs .leader ul {
+  overflow: hidden;
+}
+
+#staffs .leader li {
+/*  float: left;
+  margin: 20px 0 0 19.5px;*/
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#staffs .leader li.edge {
+  /*margin: 20px 0 0 0;*/
+}
+
+#staffs .member {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cacaca;
+}
+
+#staffs .member.vietnam {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+#staffs .member ul {
+  overflow: hidden;
+}
+
+#staffs .member li {
+  /*float: left;
+  margin: 20px 0 0 19.6px;*/
+  margin-right:20px;
+  margin-top:20px;
+  display: inline-block;
+}
+
+#staffs .member li.edge {
+  /*margin: 20px 0 0 0;*/
+}
+/*======================================
+  gallery.html
+======================================*/
+
+#gallery .title h3 {
+  font-size: 150%;
+}
+#gallery .section {
+  margin: 10px 0;
+}
+#gallery .section .date {
+  font-weight: bold;
+  display: block;
+}
+
+#gallery .big_image {
+  text-align: center;
+  padding: 20px 0 0;
+}
+
+#gallery .big_image ul {
+  display: inline-block;
+  position: relative;
+  width: 488px;
+  height: 337px;
+}
+
+#gallery .big_image li {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#gallery .big_image .current {
+  z-index: 1;
+}
+
+#gallery .small_gallery ul {
+  overflow: hidden;
+}
+
+#gallery .small_gallery li {
+  /*float: left;
+  margin: 20px 0 0 20px;*/
+    display: inline-block;
+    margin-left: 0;
+    margin-bottom: 5px;
+
+}
+
+#gallery .small_gallery li.edge {
+  margin: 20px 0 0 0;
+}
+
+/*======================================
+  recruit.html
+======================================*/
+#recruiting h3,
+#recruiting h4 {
+  font-size: 125%;
+}
+#recruiting h4 {
+  margin-bottom: 15px;
+}
+#recruiting .txt {
+  line-height: 1.7em;
+  margin: 15px 0;
+  font-size: 117%;
+}
+
+#recruiting .note {
+  background: url(../../img/company/img-border.gif) repeat-x left top;
+  font-size: 117%;
+  padding: 15px;
+}
+
+#recruiting dl {
+  padding: 15px 0;
+  background: url(../../img/company/img-border.gif) repeat-x left top;
+  overflow: hidden;
+}
+
+#recruiting dt {
+  width: 200px;
+  padding-left: 20px;
+  float: left;
+  font-size: 125%;
+}
+
+#recruiting dd {
+  float: left;
+  font-size: 117%;
+  width: 488px;
+  padding-right: 20px;
+}
+
+#recruiting .recruit_form {
+  width: 100%;
+  border: 1px solid #057ea5;
+}
+
+#recruiting .recruit_form tr {
+  border-top: 1px solid #057ea5;
+}
+
+#recruiting .recruit_form td {
+  font-size: 117%;
+}
+
+#recruiting .recruit_form th {
+  width: 172px;
+  border-right: 1px solid #057ea5;
+  padding: 11px 20px;
+  font-weight: normal;
+  font-size: 117%;
+  font-weight: bold;
+}
+
+#recruiting .recruit_form thead th,
+#recruiting .recruit_form thead td {
+  background: #057ea5;
+  color: #fff;
+}
+#recruiting .recruit_form thead th {
+  border-right: 1px solid #fff;
+}
+
+#recruiting .recruit_form thead td {
+  font-size: 134%;
+  font-weight: bold;
+}
+
+#recruiting .recruit_form .check_box {
+  padding: 10px;
+}
+
+#recruiting label input[type="checkbox"] {
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#recruiting .request {
+  color: #ff0000;
+}
+
+#recruiting .recruit_form td {
+  padding: 15px 0 15px 25px;
+}
+#recruiting .btn-recruit {
+  padding: 15px 0 5px 0;
+  text-align: center;
+}

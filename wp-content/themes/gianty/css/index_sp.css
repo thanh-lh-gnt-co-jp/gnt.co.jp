@@ -1,0 +1,345 @@
+@charset "utf-8";
+
+/*----------------------------------------
+    slider
+----------------------------------------*/
+
+#slider .slider_main {
+  position: relative;
+  width: 100%;
+}
+
+#slider img {
+  position: absolute;
+  height: auto;
+}
+
+#slider .size_1 {
+  width: 25.097%;
+}
+
+#slider .size_2 {
+  width: 49.80%;
+}
+
+/* communication 
+--------------------------------*/
+
+#slider .communi_1 {
+  top: 0;
+  left: 0;
+}
+
+#slider .communi_2 {
+  top: 0;
+  left: 25.097%;
+}
+
+#slider .communi_3 {
+  top: 0;
+  left: 74.90%;
+}
+
+#slider .communi_4 {
+  top: 168px;
+  left: 74.90%;
+}
+
+#slider .communi_5 {
+  top: 332px;
+  left: 74.90%;
+}
+
+#slider .communi_6 {
+  top: 332px;
+  left: 25.097%;
+}
+
+#slider .communi_7 {
+  top: 332px;
+  left: 0;
+}
+
+#slider .communi_8 {
+  top: 168px;
+  left: 0;
+}
+
+#slider .communi_9 {
+  top: 168px;
+  left: 25.097%;
+}
+
+/* lean 
+--------------------------------*/
+
+#slider .lean_1 {
+  top: 0;
+  left: 0;
+}
+
+#slider .lean_2 {
+  top: 0;
+  left: 25.097%;
+}
+
+#slider .lean_3 {
+  top: 0;
+  left: 74.90%;
+}
+
+#slider .lean_4 {
+  top: 332px;
+  left: 25.097%;
+}
+
+#slider .lean_5 {
+  top: 168px;
+  left: 0;
+}
+
+#slider .lean_6 {
+  top: 168px;
+  left: 25.097%;
+}
+
+/* hrt 
+--------------------------------*/
+
+#slider .hrt_1 {
+  top: 0;
+  left: 0;
+}
+
+#slider .hrt_2 {
+  top: 0;
+  left: 49.80%;
+}
+
+#slider .hrt_3 {
+  top: 0;
+  left: 74.90%;
+}
+
+#slider .hrt_4 {
+  top: 332px;
+  left: 50.19%;
+}
+
+#slider .hrt_5 {
+  top: 332px;
+  left: 25.097%;
+}
+
+#slider .hrt_6 {
+  top: 168px;
+  left: 0;
+}
+
+#slider .hrt_7 {
+  top: 168px;
+  left: 25.097%;
+}
+
+/* apuri 
+--------------------------------*/
+
+#slider .apuri_1 {
+  top: 0;
+  left: 0;
+}
+
+#slider .apuri_2 {
+  top: 0;
+  left: 25.097%;
+}
+
+#slider .apuri_3 {
+  top: 0;
+  left: 74.90%;
+}
+
+#slider .apuri_4 {
+  top: 332px;
+  left: 74.90%;
+}
+
+#slider .apuri_5 {
+  top: 332px;
+  left: 25.097%;
+}
+
+#slider .apuri_6 {
+  top: 168px;
+  left: 0;
+}
+
+#slider .apuri_7 {
+  top: 168px;
+  left: 25.097%;
+}
+
+/* mvp 
+--------------------------------*/
+
+#slider .mvp_1 {
+  top: 0;
+  left: 0;
+}
+
+#slider .mvp_2 {
+  top: 0;
+  left: 25.097%;
+}
+
+#slider .mvp_3 {
+  top: 0;
+  left: 74.90%;
+}
+
+#slider .mvp_4 {
+  top: 168px;
+  left: 74.90%;
+}
+
+#slider .mvp_5 {
+  top: 332px;
+  left: 25.097%;
+}
+
+#slider .mvp_6 {
+  top: 332px;
+  left: 0;
+}
+
+#slider .mvp_7 {
+  top: 168px;
+  left: 25.097%;
+}
+
+/*----------------------------------------
+    contents
+----------------------------------------*/
+
+#contents .title h2 {
+  text-align: center;
+  margin: 13px 0;
+}
+
+#contents .title h2 span {
+  width: 70%;
+  display: inline-block;
+}
+
+#contents .sub_title h3 {
+  text-align: center;
+  font-weight: normal;
+  margin: 0 10px;
+}
+
+#contents .wrap_content {
+  margin: 13px 10px 0;
+}
+
+#contents .section {
+  border-top: 1px solid #cacaca;
+  padding-top: 10px;
+}
+
+#contents .section_title h2 {
+  font-size: 117%;
+  margin-bottom: 5px;
+}
+
+#contents .section_content .title {
+  margin-bottom: 5px;
+  display: block;
+}
+
+#contents .section_content dd {
+  margin-bottom: 10px;
+}
+
+#contents .bnr li {
+  margin-top: 10px;
+}
+
+#contents .bnr li:first-child {
+  margin-top: 0;
+}
+
+#contents .facebook {
+  display: none;
+}
+
+#contents .news_list dt a {
+  text-decoration: underline;
+  font-weight: bold;
+  line-height: 1.7em;
+}
+
+#contents .news_list .date {
+  font-weight: bold;
+  margin: 5px 0;
+  display: block;
+}
+
+.sub_title {
+  text-align: center;
+}
+
+.readmore {
+  padding: 5px 0;
+  display: block;
+}
+
+/*----------------------------------------
+  green_sec && orange_sec
+----------------------------------------*/
+#contents .section_title h2 {
+  font-size: 200%;
+}
+.section_content {
+  line-height: 1.5;
+}
+.green_sec h4,
+.orange_sec h4 {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.green_sec h4 {
+  color: #6b8839;
+}
+
+.orange_sec h4 {
+  color: #f5884b;
+}
+
+.orange_sec .number,
+.green_sec .number {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.orange_sec .number {
+  background: #f5884b;
+}
+
+.green_sec .number {
+  background: #6b8839;
+}
+
+.pcenter {
+  text-align: center;
+  padding: 2px 0;
+}
+
+.pright {
+  text-align: right;
+}

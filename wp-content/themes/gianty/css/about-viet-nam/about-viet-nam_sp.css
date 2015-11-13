@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/* section
+------------------------------------------*/
+
+#contents .section {
+  margin-top: 10px;
+}
+
+#contents .section.green .section_title {
+  background: #6b8839;
+  padding: 6px 20px 3px;
+}
+
+#contents .section.green .section_title h3 {
+  color: #fff;
+  font-size: 115%;
+}
+
+#contents .section.green .section_contents {
+  border-right: 2px solid #6b8839;
+  border-bottom: 2px solid #6b8839;
+  border-left: 2px solid #6b8839;
+}
+
+#contents .section.green dl {
+  background: url(../../img/about-viet-nam/img-border_two.gif) repeat-x 0 top;
+  padding: 5px 0;
+}
+
+#contents .section .section_contents .edge {
+  background: none;
+}
+
+#contents .section_contents dt {
+  display: inline-block;
+  vertical-align: middle;
+  width: 15%;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+#contents .section_contents .one {
+  color: #a84261;
+}
+
+#contents .section_contents .two {
+  color: #f5884b;
+}
+
+#contents .section_contents .three {
+  color: #fcb660;
+}
+
+#contents .section_contents .four {
+  color: #a8cab9;
+}
+
+#contents .section_contents .five {
+  color: #0fbbbf;
+}
+
+#contents .section_contents .six {
+  color: #266c86;
+}
+
+#contents .section_contents dd {
+  display: inline-block;
+  vertical-align: middle;
+  width: 85%;
+}
+
+#contents .section_button {
+  padding: 10px 0;
+}
+
+#contents .section_button a {
+  display: block;
+  text-indent: -9999px;
+  font-size: 0;
+  background: #a84261 url(../../img/services/company-banner-2.jpg) no-repeat 0 0;
+  background-size: 250px 45px;
+  width: 250px;
+  height: 45px;
+  margin: 0 auto;
+}

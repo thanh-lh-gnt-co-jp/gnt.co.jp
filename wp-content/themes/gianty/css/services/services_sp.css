@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+/* development
+------------------------------------------*/
+#contents .development {
+  margin: 0 10px;
+}
+
+#contents .development h2 {
+  font-size: 125%;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+#contents .development h3 {
+  background: #073a37;
+  padding: 5px 0 5px 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#contents .development h4 {
+  padding: 10px;
+}
+#contents .development p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* section
+------------------------------------------*/
+
+#contents .section {
+  margin-top: 10px;
+}
+
+#contents .section.one .section_contents {
+  border-right: 2px solid #057ea5;
+  border-bottom: 2px solid #057ea5;
+  border-left: 2px solid #057ea5;
+}
+
+#contents .section.two .section_contents {
+  border-right: 2px solid #6b8839;
+  border-bottom: 2px solid #6b8839;
+  border-left: 2px solid #6b8839;
+}
+
+#contents .section.three .section_contents {
+  border-right: 2px solid #fcb660;
+  border-bottom: 2px solid #fcb660;
+  border-left: 2px solid #fcb660;
+}
+
+#contents .section.four .section_contents {
+  border-right: 2px solid #f5884b;
+  border-bottom: 2px solid #f5884b;
+  border-left: 2px solid #f5884b;
+}
+
+#contents .section.one dl {
+  background: url(../../img/services/img-border_one.gif) repeat-x 0 top;
+  padding: 10px 0;
+}
+
+#contents .section.two dl {
+  background: url(../../img/services/img-border_two.gif) repeat-x 0 top;
+}
+
+#contents .section.three dl {
+  background: url(../../img/services/img-border_three.gif) repeat-x 0 top;
+}
+
+#contents .section.four dl {
+  background: url(../../img/services/img-border_four.gif) repeat-x 0 top;
+}
+
+#contents .section .section_contents .edge {
+  background: none;
+}
+
+#contents .section_contents dt {
+  display: inline-block;
+  vertical-align: middle;
+  width: 15%;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+#contents .section_contents .ending {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px ;
+}
+
+#contents .section_contents .one {
+  color: #a84261;
+}
+
+#contents .section_contents .two {
+  color: #f5884b;
+}
+
+#contents .section_contents .three {
+  color: #fcb660;
+}
+
+#contents .section_contents .four {
+  color: #a8cab9;
+}
+
+#contents .section_contents .five {
+  color: #0fbbbf;
+}
+
+#contents .section_contents .six {
+  color: #266c86;
+}
+
+#contents .section_contents dd {
+  display: inline-block;
+  vertical-align: middle;
+  width: 85%;
+}
+
+#contents .section_button {
+  padding: 10px 0;
+}
+
+#contents .section_button a {
+  display: block;
+  text-indent: -9999px;
+  font-size: 0;
+  background: #a84261 url(../../img/services/company-banner-2.jpg) no-repeat 0 0;
+  background-size: 250px 45px;
+  width: 250px;
+  height: 45px;
+  margin: 0 auto;
+}
+
+
+/* perfor
+--------------------------------------*/
+
+#contents .perfor_title {
+  padding: 6px 10px 3px;
+  background: #0fbbbf;
+}
+
+#contents .perfor_title h2 {
+  color: #fff;
+}
+
+#contents .perfor_contents {
+  border-right: 2px solid #0fbbbf;
+  border-bottom: 2px solid #0fbbbf;
+  border-left: 2px solid #0fbbbf;
+}
+
+#contents .perfor .area_title {
+  padding: 13px 0 12px;
+}
+
+#contents .area_title {
+  border-top: 1px solid #0fbbbf;
+}
+
+#contents .perfor .area_title dt {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: 30%;
+}
+
+#contents .perfor .area_title dt img {
+  width: 50%;
+}
+
+#contents .perfor .gnt_area .area_title dt img {
+  width: 50%;
+}
+
+#contents .perfor .area_title dd {
+  display: inline-block;
+  vertical-align: middle;
+  width: 68%;
+  padding-right: 2%;
+}
+
+#contents .perfor .area_contents {
+  background: #fff url(../../img/services/img-border_five.gif) repeat-x left top;
+  padding: 10px 0;
+}
+
+#contents .perfor .area_contents.edge {
+  padding: 15px 0 0 0;
+}
+
+#contents .area_contents dl {
+  padding: 0 8px;
+  margin-bottom: 10px;
+}
+
+#contents .area_contents dt {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#contents .area_contents .number {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  background: #0fbbbf;
+}
+
+#contents .area_contents dd p {
+  line-height: 1.7em;
+}
